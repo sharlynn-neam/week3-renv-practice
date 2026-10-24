@@ -1,4 +1,5 @@
 install.packages("renv")
+install.packages("tidyverse")
 renv::init()
 # 1. Importing data
 clinic_raw = read_csv("data/clinic_raw.csv", skip = 2) #'skip = 2' drops the title line and blank line sitting above the real header in the original excel
