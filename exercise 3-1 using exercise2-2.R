@@ -150,12 +150,3 @@ clinic_clean =
   clinic_clean %>%
   left_join(site_lookup, by = "site") # attach region, keep every clinic_clean row
 head(clinic_clean)
-
-install.packages("usethis")
-usethis::use_git()
-
-usethis::use_github()
-
-#hello secret message to jc
-
-#hello secret message 2 
